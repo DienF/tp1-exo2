@@ -4,8 +4,8 @@ input.onButtonPressed(Button.A, function () {
         x = 4
     } else {
         x += -1
-        led.plot(x, y)
     }
+    led.plot(x, y)
 })
 input.onButtonPressed(Button.B, function () {
     led.unplot(x, y)
@@ -13,8 +13,8 @@ input.onButtonPressed(Button.B, function () {
         x = 0
     } else {
         x += 1
-        led.plot(x, y)
     }
+    led.plot(x, y)
 })
 let y = 0
 let x = 0
